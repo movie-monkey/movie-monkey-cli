@@ -1,0 +1,29 @@
+{
+	"name": "movie-monkey-cli",
+	"version": "1.0.1",
+	"description": "Search and download movies and subtitles in the terminal",
+	"main": "index.js",
+	"type": "module",
+	"keywords": [
+		"movies",
+		"CLI",
+		"download",
+		"subtitles",
+		"torrents",
+		"movie-monkey"
+	],
+	"bin": {
+		"movie-monkey-cli": "./index.js"
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@inquirer/prompts": "^7.1.0",
+		"open-file-explorer": "^1.0.2",
+		"ora": "^8.1.1",
+		"sanitize-filename": "^1.6.3"
+	}
+}
