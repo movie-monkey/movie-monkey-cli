@@ -13,7 +13,7 @@
 		"movie-monkey"
 	],
 	"bin": {
-		"movie-monkey-cli": "./index.js"
+		"mvmk": "./index.js"
 	},
 	"scripts": {
 		"start": "node index.js"
